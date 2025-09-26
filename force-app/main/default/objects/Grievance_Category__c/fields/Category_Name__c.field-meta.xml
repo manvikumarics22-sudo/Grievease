@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Category_Name__c</fullName>
+    <description>The name of the grievance type</description>
+    <externalId>false</externalId>
+    <inlineHelpText>The name of the grievance type</inlineHelpText>
+    <label>Category Name</label>
+    <length>60</length>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Resolution_Supervisor__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <description>Person responsible if SLA expires or grievance is not resolved.</description>
+    <inlineHelpText>Person responsible if SLA expires or grievance is not resolved.</inlineHelpText>
+    <label>Resolution Supervisor</label>
+    <referenceTo>User</referenceTo>
+    <relationshipName>Departments1</relationshipName>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

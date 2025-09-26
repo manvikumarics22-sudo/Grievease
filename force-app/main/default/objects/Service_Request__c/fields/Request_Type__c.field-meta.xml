@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Request_Type__c</fullName>
+    <description>Defines what kind of service is requested.</description>
+    <inlineHelpText>Defines what kind of service is requested.</inlineHelpText>
+    <label>Request Type</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Water</fullName>
+                <default>false</default>
+                <label>Water</label>
+            </value>
+            <value>
+                <fullName>Road</fullName>
+                <default>false</default>
+                <label>Road</label>
+            </value>
+            <value>
+                <fullName>Electricity</fullName>
+                <default>false</default>
+                <label>Electricity</label>
+            </value>
+            <value>
+                <fullName>Sanitation</fullName>
+                <default>false</default>
+                <label>Sanitation</label>
+            </value>
+            <value>
+                <fullName>Streetlight</fullName>
+                <default>false</default>
+                <label>Streetlight</label>
+            </value>
+            <value>
+                <fullName>Waste Management</fullName>
+                <default>false</default>
+                <label>Waste Management</label>
+            </value>
+            <value>
+                <fullName>Health &amp; Safety</fullName>
+                <default>false</default>
+                <label>Health &amp; Safety</label>
+            </value>
+            <value>
+                <fullName>Drainage</fullName>
+                <default>false</default>
+                <label>Drainage</label>
+            </value>
+            <value>
+                <fullName>Public Transport</fullName>
+                <default>false</default>
+                <label>Public Transport</label>
+            </value>
+            <value>
+                <fullName>Cleaning</fullName>
+                <default>false</default>
+                <label>Cleaning</label>
+            </value>
+            <value>
+                <fullName>Maintenance</fullName>
+                <default>false</default>
+                <label>Maintenance</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>High_priority_grievance_cases_Case</fullName>
+    <filterScope>Queue</filterScope>
+    <label>High-priority grievance cases</label>
+    <queue>High_priority_grievance_cases</queue>
+    <sharedTo>
+        <allInternalUsers></allInternalUsers>
+    </sharedTo>
+</ListView>
